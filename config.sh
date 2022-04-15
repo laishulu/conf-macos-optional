@@ -3,7 +3,7 @@
 root_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd .. && cd .. && pwd)
 
 if [[ $overwrite == "yes" ]]; then
-	open "$root_dir/macos/optional/Monokai-pro.terminal"
+	open "$root_dir/macos/optional/One-Dark.terminal"
 fi
 
 if [[ $macos_keymap = "switch" ]]; then
